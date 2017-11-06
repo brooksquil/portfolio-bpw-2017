@@ -14,7 +14,7 @@
 * ======================================================= */
 
 body {
-    font-family: "Space Mono", Arial, serif;
+    font-family: "Raleway", Arial, serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.7;
@@ -78,7 +78,7 @@ h5,
 h6,
 figure {
     color: #000;
-    font-family: "Space Mono", Arial, serif;
+    font-family: "Plastique", Arial, serif;
     font-weight: 400;
     margin: 0 0 20px 0;
 }
@@ -139,21 +139,21 @@ figure {
 .fh5co-cover .display-tc h3 {
     margin: 0;
     padding: 0;
-    color: white;
+    color: black;
 }
 
 #fh5co-header .display-tc h1,
 .fh5co-cover .display-tc h1 {
-    font-family: "Kaushan Script", cursive;
-    margin-bottom: 30px;
+    font-family: "Plastique";
+    margin-bottom: 55px;
     font-size: 50px;
-    line-height: 1.3;
+    line-height: 1.8;
     font-weight: 300;
-    -webkit-transform: rotate(-5deg);
+    /* -webkit-transform: rotate(-5deg);
     -moz-transform: rotate(-5deg);
     -ms-transform: rotate(-5deg);
     -o-transform: rotate(-5deg);
-    transform: rotate(-5deg);
+    transform: rotate(-5deg); */
 }
 
 #fh5co-header .display-tc h1 span,
@@ -162,7 +162,8 @@ figure {
     position: relative;
 }
 
-#fh5co-header .display-tc h1 span:before,
+
+/* #fh5co-header .display-tc h1 span:before,
 .fh5co-cover .display-tc h1 span:before {
     position: absolute;
     top: 40px;
@@ -170,11 +171,12 @@ figure {
     width: 30px;
     height: 4px;
     content: '';
-    background: #fff;
+    background: #black;
     margin-left: -30px;
-}
+} */
 
-#fh5co-header .display-tc h1 span:after,
+
+/* #fh5co-header .display-tc h1 span:after,
 .fh5co-cover .display-tc h1 span:after {
     position: absolute;
     top: 40px;
@@ -182,9 +184,9 @@ figure {
     width: 30px;
     height: 4px;
     content: '';
-    background: #fff;
+    background: black;
     margin-right: -30px;
-}
+} */
 
 @media screen and (max-width: 768px) {
     #fh5co-header .display-tc h1,
@@ -253,11 +255,11 @@ figure {
 }
 
 #fh5co-features {
-    background: #FFB312;
+    background: white;
 }
 
 #fh5co-features h2 {
-    color: #fff;
+    color: black;
 }
 
 #fh5co-features .services-padding {
@@ -302,14 +304,14 @@ figure {
 }
 
 #fh5co-features .feature-left h3 {
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 400;
-    color: #fff;
+    color: black;
 }
 
 #fh5co-features .feature-left p {
     font-size: 16px;
-    color: rgba(255, 255, 255, 0.7);
+    color: black;
 }
 
 #fh5co-features .feature-left p:last-child {
@@ -325,8 +327,12 @@ figure {
 #fh5co-skills,
 #fh5co-started,
 #fh5co-work,
-#fh5co-blog,
-#fh5co-pricing,
+
+/* #fh5co-blog, */
+
+
+/* #fh5co-pricing, */
+
 #fh5co-contact {
     padding: 7em 0;
     clear: both;
