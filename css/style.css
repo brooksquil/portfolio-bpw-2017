@@ -263,7 +263,7 @@ figure {
 }
 
 #fh5co-features .services-padding {
-    padding: 7em 0;
+    padding: 1em 0;
 }
 
 #fh5co-features .feature-left {
@@ -494,6 +494,10 @@ figure {
     text-transform: uppercase;
     font-size: 12px;
     letter-spacing: 2px;
+}
+
+#up-arrow {
+    background-color: #FFB312;
 }
 
 
@@ -819,6 +823,10 @@ figure {
     overflow: hidden;
 }
 
+#portfolio h2 {
+    color: black;
+}
+
 @media screen and (max-width: 768px) {
     .work {
         height: 400px;
@@ -834,8 +842,8 @@ figure {
 .work .desc {
     display: table-cell;
     vertical-align: middle;
-    height: 270px;
-    background: #fff;
+    height: 285px;
+    background: black;
     opacity: 0;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
@@ -844,6 +852,8 @@ figure {
 
 .work .desc h3 {
     font-size: 20px;
+    font-family: Plastique;
+    color: #fff;
     -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
     transition: transform 0.3s, opacity 0.3s;
     -webkit-transform: translate3d(0, -15px, 0);
@@ -853,7 +863,7 @@ figure {
 .work .desc span {
     display: block;
     color: #999999;
-    font-size: 14px;
+    font-size: 16px;
     -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
     transition: transform 0.3s, opacity 0.3s;
     -webkit-transform: translate3d(0, 15px, 0);
@@ -1119,9 +1129,11 @@ figure {
 }
 
 #fh5co-footer {
-    padding: 50px 0;
+    padding: 15px 0;
     float: left;
     width: 100%;
+    color: white;
+    background-color: black;
 }
 
 #fh5co-footer p:last-child {
